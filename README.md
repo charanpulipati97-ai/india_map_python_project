@@ -54,3 +54,5 @@ This project helps in understanding:
 * Geographic data visualization
 * Creating interactive maps using Folium
 * Exporting maps as web-based HTML files
+* ##output
+* indiamap.png
