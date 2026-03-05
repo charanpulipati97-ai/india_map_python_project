@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b92c78ccc13ef805141d1823294fe8af {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b92c78ccc13ef805141d1823294fe8af" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b92c78ccc13ef805141d1823294fe8af = L.map(
+                "map_b92c78ccc13ef805141d1823294fe8af",
+                {
+                    center: [22.5937, 78.9629],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b7f8b95333bbd7164a39a8595d4b6777 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_b7f8b95333bbd7164a39a8595d4b6777.addTo(map_b92c78ccc13ef805141d1823294fe8af);
+        
+    
+            var marker_75df017bf6593aae5df649d28ba6c7aa = L.marker(
+                [15.9129, 79.74],
+                {
+}
+            ).addTo(map_b92c78ccc13ef805141d1823294fe8af);
+        
+    
+        var popup_c12cb464c23ef5e0903b11cf14082812 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_df1997ce9b6bfe083689f257d285af25 = $(`<div id="html_df1997ce9b6bfe083689f257d285af25" style="width: 100.0%; height: 100.0%;">     <b>State:</b> Andhra Pradesh<br>     <b>Capital:</b> Amaravati<br>     <b>Famous Food:</b> Pulihora<br>     <b>Culture:</b> Kuchipudi dance and Telugu traditions     </div>`)[0];
+                popup_c12cb464c23ef5e0903b11cf14082812.setContent(html_df1997ce9b6bfe083689f257d285af25);
+            
+        
+
+        marker_75df017bf6593aae5df649d28ba6c7aa.bindPopup(popup_c12cb464c23ef5e0903b11cf14082812)
+        ;
+
+        
+    
+    
+            marker_75df017bf6593aae5df649d28ba6c7aa.bindTooltip(
+                `<div>
+                     Andhra Pradesh
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bd5966bfcedb2d478c4cc0d705f50d21 = L.marker(
+                [18.1124, 79.0193],
+                {
+}
+            ).addTo(map_b92c78ccc13ef805141d1823294fe8af);
+        
+    
+        var popup_4c64735017c954b238318620fff88271 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_17949c5bd352b3f9f16a3312f1706a93 = $(`<div id="html_17949c5bd352b3f9f16a3312f1706a93" style="width: 100.0%; height: 100.0%;">     <b>State:</b> Telangana<br>     <b>Capital:</b> Hyderabad<br>     <b>Famous Food:</b> Hyderabadi Biryani<br>     <b>Culture:</b> Bathukamma festival and Deccan heritage     </div>`)[0];
+                popup_4c64735017c954b238318620fff88271.setContent(html_17949c5bd352b3f9f16a3312f1706a93);
+            
+        
+
+        marker_bd5966bfcedb2d478c4cc0d705f50d21.bindPopup(popup_4c64735017c954b238318620fff88271)
+        ;
+
+        
+    
+    
+            marker_bd5966bfcedb2d478c4cc0d705f50d21.bindTooltip(
+                `<div>
+                     Telangana
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_624fcdc779a64a97a8707bcbad7e98d1 = L.marker(
+                [11.1271, 78.6569],
+                {
+}
+            ).addTo(map_b92c78ccc13ef805141d1823294fe8af);
+        
+    
+        var popup_e918b33193463b82730a59671f792829 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_190c2e9cd3166fe74f957d654d41a868 = $(`<div id="html_190c2e9cd3166fe74f957d654d41a868" style="width: 100.0%; height: 100.0%;">     <b>State:</b> Tamil Nadu<br>     <b>Capital:</b> Chennai<br>     <b>Famous Food:</b> Dosa<br>     <b>Culture:</b> Bharatanatyam dance and Dravidian temples     </div>`)[0];
+                popup_e918b33193463b82730a59671f792829.setContent(html_190c2e9cd3166fe74f957d654d41a868);
+            
+        
+
+        marker_624fcdc779a64a97a8707bcbad7e98d1.bindPopup(popup_e918b33193463b82730a59671f792829)
+        ;
+
+        
+    
+    
+            marker_624fcdc779a64a97a8707bcbad7e98d1.bindTooltip(
+                `<div>
+                     Tamil Nadu
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d62c71ba0b8d1ae6383eb02cad43dcc6 = L.marker(
+                [15.3173, 75.7139],
+                {
+}
+            ).addTo(map_b92c78ccc13ef805141d1823294fe8af);
+        
+    
+        var popup_473a4c9dabadeb0b7fcf2a9dedab638f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_df0070661b0fa1d6f076e219a20928db = $(`<div id="html_df0070661b0fa1d6f076e219a20928db" style="width: 100.0%; height: 100.0%;">     <b>State:</b> Karnataka<br>     <b>Capital:</b> Bengaluru<br>     <b>Famous Food:</b> Bisi Bele Bath<br>     <b>Culture:</b> Yakshagana folk theatre     </div>`)[0];
+                popup_473a4c9dabadeb0b7fcf2a9dedab638f.setContent(html_df0070661b0fa1d6f076e219a20928db);
+            
+        
+
+        marker_d62c71ba0b8d1ae6383eb02cad43dcc6.bindPopup(popup_473a4c9dabadeb0b7fcf2a9dedab638f)
+        ;
+
+        
+    
+    
+            marker_d62c71ba0b8d1ae6383eb02cad43dcc6.bindTooltip(
+                `<div>
+                     Karnataka
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_cf7e9ac1ffd6a5a2e4d4c65714420f9c = L.marker(
+                [19.7515, 75.7139],
+                {
+}
+            ).addTo(map_b92c78ccc13ef805141d1823294fe8af);
+        
+    
+        var popup_fde72f8ab4a6d050b45e24d81e91f01b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e04fc35e9f5a745b5872bcaf07290281 = $(`<div id="html_e04fc35e9f5a745b5872bcaf07290281" style="width: 100.0%; height: 100.0%;">     <b>State:</b> Maharashtra<br>     <b>Capital:</b> Mumbai<br>     <b>Famous Food:</b> Vada Pav<br>     <b>Culture:</b> Lavani dance and Marathi traditions     </div>`)[0];
+                popup_fde72f8ab4a6d050b45e24d81e91f01b.setContent(html_e04fc35e9f5a745b5872bcaf07290281);
+            
+        
+
+        marker_cf7e9ac1ffd6a5a2e4d4c65714420f9c.bindPopup(popup_fde72f8ab4a6d050b45e24d81e91f01b)
+        ;
+
+        
+    
+    
+            marker_cf7e9ac1ffd6a5a2e4d4c65714420f9c.bindTooltip(
+                `<div>
+                     Maharashtra
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
