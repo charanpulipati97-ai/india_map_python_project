@@ -55,4 +55,4 @@ This project helps in understanding:
 * Creating interactive maps using Folium
 * Exporting maps as web-based HTML files
 * ##output
-* indiamap.png
+* ![indiamap output](indiamap.png)
